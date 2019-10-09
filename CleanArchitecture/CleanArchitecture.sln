@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Domain", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infra.Data", "CleanArchitecture.Infra.Data\CleanArchitecture.Infra.Data.csproj", "{DD717078-B82F-40E3-8D7D-FC3FCB336782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Application", "CleanArchitecture.Application\CleanArchitecture.Application.csproj", "{412D16C2-8521-41AD-A76D-6B2E5546FF42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Application", "CleanArchitecture.Application\CleanArchitecture.Application.csproj", "{412D16C2-8521-41AD-A76D-6B2E5546FF42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infra.IOC", "CleanArchitecture.Infra.IOC\CleanArchitecture.Infra.IOC.csproj", "{13687E4D-D317-4D98-95E3-14B9D349BEB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infra.IOC", "CleanArchitecture.Infra.IOC\CleanArchitecture.Infra.IOC.csproj", "{13687E4D-D317-4D98-95E3-14B9D349BEB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Bus", "Infrastructure.Bus", "{84050498-CC6F-414A-946A-FB6B9F3FE7D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{E60D3D58-7BDC-475B-BC11-0264DB7D14EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
