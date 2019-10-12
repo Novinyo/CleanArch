@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CleanArchitecture.Api.Configurations;
 using CleanArchitecture.Infra.Data.Context;
 using CleanArchitecture.Infra.IOC;
 using MediatR;
@@ -44,6 +45,7 @@ namespace CleanArchitecture.Api
             });
             services.AddMediatR(typeof(Startup));
 
+            services.RegisterAutoMapper();
             RegisterServices(services);
         }
 
